@@ -1,15 +1,17 @@
-EJERCICIO 24 enero
+EJERCICIO 24 enero CORREGIDO
 
 ANÁLISIS
 Entrada: distancia a, distancia b, distancia c, distancia d.
-Salida: Área total del terreno.
+Salida: Área total del terreno, Costo del terreno
 Relación E/S: Área= (((a+(a-c-d)))*b)/2
 es decir: Área = [(2a-d-c)*b]/2
-
+y Costo= Área*3450
 ALGORITMO
 -Leer a
 -Leer b
 -Leer c
 -Leer d
 -Calcular Área = [(2a-d-c)*b]/2
+-Calcular Costo= Área*3450
 -Imprimir Área
+-Imprimir Costo
